@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Programador E</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!----Menu de Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">Programador E</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE  MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>    
+            <div class="nav-responsive" onclick="MostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>    
+    </header>
+    </div>
+    <!--SESION DE INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Img/perfil.jpg" alt="" class="" width="150px">
+            </div>
+            <h1>Emerson Humberto</h1>
+            <h2>Programador de Aplicaciones de Escritorio y Aplicaciones Full Stack con 
+                C# | Asp.Net | Asp.Net Core | React Js
+            </h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/emersonhumberto5/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Eme005humberto"><i class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UC-u9sKczpBtx0COkuALyayA"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--SESION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola Soy Emerson Humberto en la Web me conocen como Programador E </span>Yo naci en el Salvador 
+            el 28 de marzo del 2003, actualmente me dedico al desarrollo de software tengo 3 años dedicandomen a esto
+            he desarrollado aplicaciones de consola, aplicaciones de escritorio y aplicaciones Web en el lado del Back-end.
+            tengo una hermosa comunidad de youtube en donde hablamos cosas de programacion.
+        </p>
+
+        <div class="fila">
+            <!--DATOS PERSONALES-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        28-03-2003
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        (503): 7400-0285
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        eme005humberto@gmail.com
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>Desarrollador de Software</span>
+                    </li>
+                </ul>
+            </div>
+            <!--INTERESES-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <di class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Video Juegos </span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span> Musica Rock & Heavy Metal </span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-running"></i>
+                      <span> Correr</span>
+                    </div>
+                </di>
+            </div>
+        </div>
+        <button id="descargarPDF"><span>Descargar CV</span>
+            <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        </div>
+    </section>
+    <!--SESION SKILLS-->
+    <section class="skills" id="skills">
+     <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!--TECHNICAL SKILL-->
+            <div class="col">
+                <h3> TECHNICAL SKILL</h3>
+                <div class="skill">
+                    <span>C#</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Sql Server & MySql</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Asp.Net</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Asp.Net Core</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>React Js</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>40%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <!--SESION CV-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Estudiante de Ing en Sistemas Y Computacion</h4>
+                         <span class="casa">Universidad Tecnologica del Salvador</span>
+                         <span class="fecha">2021-2023</span>
+                         <p>
+                            Actualmente soy Estudiante de Ing en Sistemas Y Computacion
+                         </p>
+                         <div class="conectori">
+                            <div class="circuloi">
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="Img/RegistroCRUD.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Registro de Empleados</h3>
+                        <p>Apliacion de escritorio sobre registrar empleados</p>
+                    </div>
+                </div>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="Img/Img3.PNG" alt="">
+                        <div class="overlay">
+                            <h3>Registro de Empleados Banco Agricola</h3>
+                            <p>Apliacion Web sobre registrar empleados del Banco Agricola</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="Img/Img4.PNG" alt="">
+                        <div class="overlay">
+                            <h3>Ecommerce Super Selectos</h3>
+                            <p>Aplicacion Web Ecommerce Super Selectos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./scripts.js"></script>
+</body>
+</html>
